@@ -1,0 +1,42 @@
+@function sz($value, $scale:1.0) {
+	@return round($value * $scale) * 1px;
+}
+
+@function pxToVw($pxValue) {
+    @return (($pxValue / 750) * 100) + vw;
+}
+
+
+// フォントサイズ指定
+@mixin fz($value)
+{
+    font-size: $value+px;
+    font-size: $value*0.1+rem;
+}
+
+// clearfix
+@mixin cf{
+	&:before,
+	&:after{
+		content: "";
+		display: table;
+	}
+	&:after{
+		clear: both;
+	}
+	zoom: 1;
+}
+
+// font-family
+@mixin font-family($type) {
+    @if $type == w3 {
+        font-family: "ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, Meiryo, sans-serif;
+    }
+    @else if $type == w6 {
+        font-family: "ヒラギノ角ゴ ProN W6",HiraKakuProN-W6, "游ゴシック", YuGothic, Meiryo, sans-serif;
+        font-weight: bold;
+    }
+    @else if $type == yu {
+        font-family: YuGothic,'Yu Gothic',Meiryo, sans-serif;
+    }
+}

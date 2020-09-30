@@ -1,0 +1,43 @@
+
+
+*[data-hidden] {
+	transform: translateY(50px);
+	opacity: 0;
+}
+
+*[data-visible] {
+	transition: all .6s $easeOutQuad;
+	transform: translateY(0);
+	opacity: 1;
+}
+
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes attention {
+  0% {
+    transform: scale(1.0);
+  }
+  15% {
+    transform: scale(1.1);
+  }
+  30% {
+    transform: scale(1.0);
+  }
+  45% {
+    transform: scale(1.25);
+  }
+  60% {
+    transform: scale(1.0);
+  }
+  100% {
+    transform: scale(1.0);
+  }
+}

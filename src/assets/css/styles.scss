@@ -1,0 +1,13 @@
+@import "core/reset";
+@import "core/config";
+@import "core/mixin";
+@import "core/base";
+@import "core/animation";
+
+.meeting {
+  &_ui {
+    li {
+      margin: 0 5px;
+    }
+  }
+}
