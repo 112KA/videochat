@@ -6,7 +6,7 @@
           @click="onClickVideo"
           :selected="selectedVideo"
           ref="btn01"
-          imageUrlBase="/img/btn_video"
+          imageUrlBase="./img/btn_video"
           label="カメラ"
         ></ToggleButton>
       </li>
@@ -15,7 +15,7 @@
           @click="onClickMic"
           :selected="selectedAudio"
           ref="btn02"
-          imageUrlBase="/img/btn_mic"
+          imageUrlBase="./img/btn_mic"
           label="マイク"
         ></ToggleButton>
       </li>
@@ -24,7 +24,7 @@
           @click="onClickShareScreen"
           :selected="selectedShareScreen"
           ref="btn03"
-          imageUrlBase="/img/btn_screen"
+          imageUrlBase="./img/btn_screen"
           label="画面共有"
         ></ToggleButton>
       </li>
@@ -33,7 +33,7 @@
           @click="onClickJoin"
           :selected="!isJoin"
           ref="btn04"
-          imageUrlBase="/img/btn_join"
+          imageUrlBase="./img/btn_join"
           label="通話"
         ></ToggleButton>
       </li>
