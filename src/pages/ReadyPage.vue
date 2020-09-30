@@ -7,7 +7,7 @@
         </li>
         <li>
           URLのchannelクエリを指定すると、任意の通話チャンネルをつくれる。
-          <br />例) /?channel=test
+          <br />例) https://112ka.github.io/videochat/?channel=test
         </li>
         <li>
           <a href="https://docs.agora.io/cn/faq/browser_support" target="_blank">ブラウザサポート</a>
