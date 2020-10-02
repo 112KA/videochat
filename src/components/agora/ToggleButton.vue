@@ -1,7 +1,7 @@
 <template>
-  <button @click="onClick" :class="{toggleButton: true, disabled:!enabled}">
+  <button @click="onClick" :class="{ toggleButton: true, disabled: !enabled }">
     <img :src="imageUrl" alt />
-    {{label}}
+    {{ label }}
   </button>
 </template>
 
@@ -59,6 +59,10 @@ export default {
   &.disabled {
     opacity: 0.5;
     pointer-events: none;
+  }
+
+  &:hover {
+    opacity: 0.5;
   }
 }
 

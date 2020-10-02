@@ -3,19 +3,32 @@
     <div>
       <ul>
         <li>
-          <a href="https://jp.vcube.com/service/agora" target="_blank">Agora SDK</a>を使ったビデオチャットサンプル(画面共有も可)
+          <a href="https://jp.vcube.com/service/agora" target="_blank"
+            >Agora SDK</a
+          >を使ったビデオチャットサンプル(画面共有も可)
         </li>
         <li>
           URLのchannelクエリを指定すると、任意の通話チャンネルをつくれる。
           <br />例) https://112ka.github.io/videochat/?channel=test
         </li>
         <li>
-          <a href="https://docs.agora.io/cn/faq/browser_support" target="_blank">ブラウザサポート</a>
+          <a href="https://docs.agora.io/cn/faq/browser_support" target="_blank"
+            >ブラウザサポート</a
+          >
           <br />※画面共有については
           <a
             href="https://docs.agora.io/en/Video/screensharing_web?platform=Web"
             target="_blank"
-          >Safariは非サポート</a>
+            >Safariは非サポート</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://github.com/112KA/videochat"
+            target="_blank"
+            rel="noopener noreferrer"
+            >GitHub</a
+          >
         </li>
       </ul>
       <UI
